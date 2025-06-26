@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=true"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'true');
+      </script>
+    
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>RSI-TGRA | A large-scale dataset used for various tasks in remote sensing imagery. It can be used for developing and evaluating tasks such as object detection, image segmentation, scene image generation, and image dehazing. The images were collected using drones, covering the Three Gorges Reservoir area around Yichang. The size of each image ranges from around 4000 x 6000 pixels, containing objects that exhibit various proportions, orientations, and shapes. The instances in the CTGU Dataset images are finely annotated and reviewed by remote sensing image interpretation experts.</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="RSI-TGRA" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="RSI-TGRA is a large-scale dataset used for various tasks in remote sensing imagery. " />
+<meta property="og:description" content="RSI-TGRA is a large-scale dataset used for various tasks in remote sensing imagery. It can be used for developing and evaluating tasks such as object detection, image segmentation, scene image generation, and image dehazing. The images were collected using drones, covering the Three Gorges Reservoir area around Yichang. " />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="RSI-TGRA" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/","description":"RSI-TGRA is a large-scale dataset used for various tasks in remote sensing imagery. It can be used for developing and evaluating tasks such as object detection, image segmentation, scene image generation, and image dehazing. The images were collected using drones, covering the Three Gorges Reservoir area around Yichang. The size of each image ranges from around 4000 x 6000 pixels, containing objects that exhibit various proportions, orientations, and shapes. The instances in the CTGU Dataset images are finely annotated and reviewed by remote sensing image interpretation experts.","name":"CTGU Dataset","@type":"WebSite","headline":"CTGU Dataset","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="assets/css/style.css?v=">
+        <title>响应式水平导航栏</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+          
+        }
+        
+        /* 导航栏容器 */
+        .topnav {
+        overflow: hidden;
+        background: linear-gradient(90deg, #155b94, #159556);
+        position: fixed; /* 固定定位 */
+        top: 0;
+        width: 100%;
+        z-index: 1000; /* 确保导航栏在最上层 */
+    }
+        
+        /* 隐藏默认链接 */
+        .topnav #myLinks {
+            display: none;
+        }
+        
+        /* 导航链接样式 */
+        .topnav a {
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            display: block;
+        }
+        
+        /* 汉堡菜单图标 */
+        .topnav a.icon {
+            background: black;
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        
+        /* 活动/当前链接 */
+        .topnav a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+        
+        /* 鼠标悬停效果 */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        
+        /* 桌面视图 - 水平导航 */
+        @media screen and (min-width: 768px) {
+            .topnav {
+                display: flex;
+                justify-content: flex-start;
+            }
+            
+            .topnav a.icon {
+                display: none;
+            }
+            
+            .topnav #myLinks {
+                display: flex;
+            }
+            
+            .topnav a {
+                float: left;
+                display: block;
+                text-align: center;
+            }
+        }
+    </style>
+  </head>
+  <body>
+  <div class="topnav">
+        
+        <!-- 导航链接 (默认隐藏) -->
+        <div id="myLinks">
+            <a href="https://wcygoretzka.github.io/">Home</a>
+            <a href="#news">News</a>
+          
+            <a href="#overview">Overview</a>
+            <a href="#dataset">Dataset</a>
+           <a href="#abouts">About</a>
+        </div>
+        <!-- 汉堡菜单按钮 -->
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+            ☰
+        </a>
+    </div>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">RSI-TGRA</h1>
+      <h2 class="project-tagline">RSI-TGRA is a large-scale dataset used for various tasks in remote sensing imagery. It can be used for developing and evaluating tasks such as object detection, image segmentation, scene image generation, and image dehazing..</h2>
+      
+      
+        <a href=" https://pan.baidu.com/s/1wiensh0m3dYAHunIUUpidA?pwd=ctgu" class="btn">Baidu Drive</a>
+      <!--
+        <a href="https://drive.google.com/open?id=1dLuzldMRmbBNKPpUkX8Z53hi6sdadasdasdasdasdasdNHLrWim" class="btn">Google Drive</a>
+      -->
+      
+    </header>
+    
+    <main id="content" class="main-content" role="main">
+      <h2 id="news" style="padding-top: 60px">News</h2>
+      <ul>
+        <li>2025.06: First version of RSI-TGRA has released!</li>
+        <li>2025.05: The first batch of RSI-TGRA-Obj labeling has been completed!</li>
+        <li>2025.03: The first batch of RSI-TGRA-Seg labeling has been completed!</li>
+        <li>2024: Start planning the dataset, collecting and annotating data</li>
+      </ul>
+      <div id = "overview" style="padding-top: 60px">
+      <h2 id="overview-of-ctgu">Overview of RSI-TGRA</h2>
+
+<p>RSI-TGRA is a large-scale dataset used for various tasks in remote sensing imagery. It can be used for developing and evaluating tasks such as object detection, image segmentation, scene image generation, and image dehazing. The images were collected using drones, covering the Three Gorges Reservoir area around Yichang. The size of each image ranges from around 4000 x 6000 pixels, containing objects that exhibit various proportions, orientations, and shapes. The instances in the CTGU Dataset images are finely annotated and reviewed by remote sensing image interpretation experts. We will continue to update the CTGU Dataset to expand its scale and scope to reflect constantly changing real-world conditions.</p>
+      </div>
+<div id="dataset" style="padding-top: 60px";>
+  <h2 id = "dataset-distribution-ctgu" >Dataset</h2>
+  <div id="geospatial-distribution-of-ctgu" style="padding-left: 20px;"> 
+<h3 >Geospatial Distribution of RSI-TGRA</h3>
+
+<p>The Yichang Three Gorges Reservoir Area mainly includes Zigui County, Changyang Tujia Autonomous County, and Wufeng Tujia Autonomous County in Yichang City, located in the canyon area of the upper reaches of the Yangtze River. This area is located in the western part of Hubei Province, bordering Chongqing City, and is one of the most critical sections of the Three Gorges Reservoir. The terrain of this area is mainly mountainous and hilly, and the Yangtze River passes through the layered mountains here, forming the famous Three Gorges Canyon landscape. The geographical coordinates are roughly between 110 ° 20 ′ E and 111 ° 20 ′ E longitude, and 30 ° 40 ′ N and 31 ° 40 ′ N. The altitude ranges from 100 to 1000 meters, and the terrain is complex and diverse, making it an extremely important ecological environment area in the upper reaches of the Yangtze River.</p>
+  </div>
+  <div id = "samples-size-of-46" style="padding-left: 20px;">
+<h3 >Samples size of 4000 × 6000</h3>
+
+<p><img src="assets\images\location.jpg" alt="samples" /></p>
+  </div>
+</div>
+<h2 id="abouts" style="padding-top: 60px">About</h2>
+
+<p>We are from the Hubei Key Laboratory of Intelligent Vision Based Monitoring for Hydroelectric Engi neering, China Three Gorges University.</p>
+
+<p>If you have any the problem or feedback in using RSI-TGRA, please contact</p>
+
+<ul>
+  <li>Dong Ren at rendong5227@163.com</li>
+  <li>Wenbin Wang at wangwenbin@ctgu.edu.cn</li>
+  <li>Chenyang Wang at wcygoretzka@163.com</li>
+  <li>Lu Wang at 276379755@qq.com</li>
+</ul>
+  
+
+    
+<!-- <h2 id="cite">Cite</h2>
+
+<p>If you use this dataset for your research, please cite our papers.</p>
+
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Article<span class="p">{</span>Chen2020,
+AUTHOR = <span class="p">{</span>Chen, Hao and Shi, Zhenwei<span class="p">}</span>,
+TITLE = <span class="p">{</span>A Spatial-Temporal Attention-Based Method and a New Dataset for Remote Sensing Image Change Detection<span class="p">}</span>,
+JOURNAL = <span class="p">{</span>Remote Sensing<span class="p">}</span>,
+VOLUME = <span class="p">{</span>12<span class="p">}</span>,
+YEAR = <span class="p">{</span>2020<span class="p">}</span>,
+NUMBER = <span class="p">{</span>10<span class="p">}</span>,
+ARTICLE-NUMBER = <span class="p">{</span>1662<span class="p">}</span>,
+URL = <span class="p">{</span>https://www.mdpi.com/2072-4292/12/10/1662<span class="p">}</span>,
+ISSN = <span class="p">{</span>2072-4292<span class="p">}</span>,
+DOI = <span class="p">{</span>10.3390/rs12101662<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div> -->
+
+      <footer class="site-footer">
+        <!--  -->
+        <!-- <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span> -->
+      </footer>
+    </main>
+  </body>
+</html>
