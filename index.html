@@ -110,6 +110,36 @@
                 text-align: center;
             }
         }
+              .baidu-btn {
+            padding: 15px 40px;
+            background-color: transparent; /* 透明背景 */
+            border: 2px solid #999;       /* 灰色边框 */
+            color: #333;
+            text-decoration: none;
+            border-radius: 8px;           /* 圆角 */
+            text-align: center;           /* 文字居中 */
+            transition: all 0.3s ease;    /* 悬停动画 */
+        }
+
+        /* 大字体 "Download" */
+        .download-text {
+            font-size: 24px;             /* 大字体 */
+            font-weight: bold;            /* 加粗 */
+            margin-bottom: 5px;           /* 与下方文字间距 */
+        }
+
+        /* 小字体 "BaiduDrive" */
+        .baidudrive-text {
+            font-size: 14px;              /* 小字体 */
+            color: #666;                  /* 浅灰色 */
+        }
+
+        /* 悬停效果 */
+        .baidu-btn:hover {
+            background-color: rgba(0, 0, 0, 0.05); /* 轻微变暗 */
+            border-color: #666;                    /* 边框加深 */
+        }
+
     </style>
   </head>
   <body>
@@ -133,47 +163,29 @@
     
     
     <main id="content" class="main-content" role="main">
-     
-      <div id = "overview" >
-      <h2 id="overview-of-ctgu">Overview of RSI-TGRA</h2>
-
-<p>RSI-TGRA is a large-scale dataset used for various tasks in remote sensing imagery. It can be used for developing and evaluating tasks such as object detection, image segmentation, scene image generation, and image dehazing. The images were collected using drones, covering the Three Gorges Reservoir area around Yichang. The size of each image ranges from around 4000 x 6000 pixels, containing objects that exhibit various proportions, orientations, and shapes. The instances in the CTGU Dataset images are finely annotated and reviewed by remote sensing image interpretation experts. We will continue to update the CTGU Dataset to expand its scale and scope to reflect constantly changing real-world conditions.</p>
+     <div class="head" style="padding-top:60px;>
+       </div>
+      <a href="https://pan.baidu.com" class="baidu-btn" target="_blank">
+        <div class="download-text">Download</div>
+        <div class="baidudrive-text">Baidu Drive</div>
+    </a>
+     <div class="Object Category">
+       <h2>Object Category</h2>
+       <p>The object categories in it: ship, basketball court, tennis court, roundabout, bridge, large Vechicle,</p>
+       <p>small vechicle, building, storage tank, aerator, industrial building, aquaculture farm, solar water heater,</p>
+       <p>green house, power substation, solar panel and autom atic feeder.</p>
+     </div>
+      <div class="Annotation format" style="padding-top:20px;">
+       <h2>Object Category</h2>
+     <p>   </p>
+     </div>
+      <div class="ShowLabel">
       </div>
-<div id="dataset" >
-  <h2 id = "dataset-distribution-ctgu" >Dataset</h2>
-  <div id="geospatial-distribution-of-ctgu" style="padding-left: 20px;"> 
-<h3 >Geospatial Distribution of RSI-TGRA</h3>
-
-<p>The Yichang Three Gorges Reservoir Area mainly includes Zigui County, Changyang Tujia Autonomous County, and Wufeng Tujia Autonomous County in Yichang City, located in the canyon area of the upper reaches of the Yangtze River. This area is located in the western part of Hubei Province, bordering Chongqing City, and is one of the most critical sections of the Three Gorges Reservoir. The terrain of this area is mainly mountainous and hilly, and the Yangtze River passes through the layered mountains here, forming the famous Three Gorges Canyon landscape. The geographical coordinates are roughly between 110 ° 20 ′ E and 111 ° 20 ′ E longitude, and 30 ° 40 ′ N and 31 ° 40 ′ N. The altitude ranges from 100 to 1000 meters, and the terrain is complex and diverse, making it an extremely important ecological environment area in the upper reaches of the Yangtze River.</p>
-  </div>
-  <div id = "samples-size-of-46" style="padding-left: 20px;">
-<h3 >Samples size of 4000 × 6000</h3>
-
-<p><img src=".\assets\images\location.jpg" alt="samples" /></p>
-  </div>
-</div>
-  
-
-    
-<!-- <h2 id="cite">Cite</h2>
-
-<p>If you use this dataset for your research, please cite our papers.</p>
-
-<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Article<span class="p">{</span>Chen2020,
-AUTHOR = <span class="p">{</span>Chen, Hao and Shi, Zhenwei<span class="p">}</span>,
-TITLE = <span class="p">{</span>A Spatial-Temporal Attention-Based Method and a New Dataset for Remote Sensing Image Change Detection<span class="p">}</span>,
-JOURNAL = <span class="p">{</span>Remote Sensing<span class="p">}</span>,
-VOLUME = <span class="p">{</span>12<span class="p">}</span>,
-YEAR = <span class="p">{</span>2020<span class="p">}</span>,
-NUMBER = <span class="p">{</span>10<span class="p">}</span>,
-ARTICLE-NUMBER = <span class="p">{</span>1662<span class="p">}</span>,
-URL = <span class="p">{</span>https://www.mdpi.com/2072-4292/12/10/1662<span class="p">}</span>,
-ISSN = <span class="p">{</span>2072-4292<span class="p">}</span>,
-DOI = <span class="p">{</span>10.3390/rs12101662<span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div></div> -->
-
-      <footer class="site-footer">
+      <div class="Data Download" style="padding-top:20px;">
+      <h2> Data Download </h2>
+        
+      </div>
+      <footer class="site-footer" >
         <!--  -->
         <!-- <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span> -->
       </footer>
